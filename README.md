@@ -9,7 +9,7 @@ firebase-tools: 13.11.2<br>
 1. (Optional) Run `firebase remoteconfig:get --output remoteconfig.template.json --project PROEJCT_ID_1`
    - This gets the Firebase project's Remote Config template.
    - The output of running this command is in the `remoteconfig.template.json`
-1. Run `firebase deploy --only remoteconfig --project cli-testproject-01`
+1. Run `firebase deploy --only remoteconfig --project PROJECT_ID_2`
    - Error is raised
 
 ```
