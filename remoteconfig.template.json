@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "name": "condition_0",
+      "expression": "device.os == 'web'",
+      "tagColor": "ORANGE"
+    }
+  ],
+  "parameters": {
+    "test_key": {
+      "defaultValue": {
+        "value": "test_value"
+      },
+      "conditionalValues": {
+        "condition_0": {
+          "rolloutValue": {
+            "rolloutId": "rollout_1",
+            "value": "enabled_value_0",
+            "percent": 50
+          }
+        }
+      },
+      "description": "test_description",
+      "valueType": "STRING"
+    }
+  }
+}
